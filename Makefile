@@ -1,4 +1,4 @@
-PHP_VERSION=7.4
+PHP_VERSION=8.2
 
 build-base:
 	docker build --build-arg PHP_VERSION=$(PHP_VERSION) -t mgonzalezbaile/php-fpm-base:$(PHP_VERSION) base
