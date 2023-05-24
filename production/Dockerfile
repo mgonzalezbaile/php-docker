@@ -13,7 +13,7 @@ COPY php.ini "$PHP_INI_DIR/php.ini"
 COPY . /var/app
 WORKDIR /var/app
 
-# Install dependencies in optimized way
+# TODO: Install dependencies in optimized way
 # RUN composer install  \
 #    --no-dev \
 #    --no-scripts  \
